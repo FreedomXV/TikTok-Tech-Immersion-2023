@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+
 RUN_NAME="demo.im.rpc"
 
 mkdir -p output/bin
