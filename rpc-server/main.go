@@ -3,6 +3,8 @@ package main
 import (
 	"log"
 
+	_ "github.com/go-sql-driver/mysql"
+
 	rpc "github.com/TikTokTechImmersion/assignment_demo_2023/rpc-server/kitex_gen/rpc/imservice"
 	"github.com/cloudwego/kitex/pkg/rpcinfo"
 	"github.com/cloudwego/kitex/server"

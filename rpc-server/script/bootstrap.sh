@@ -1,4 +1,5 @@
-#! /usr/bin/env bash
+#!/bin/bash
+
 CURDIR=$(cd $(dirname $0); pwd)
 
 if [ "X$1" != "X" ]; then

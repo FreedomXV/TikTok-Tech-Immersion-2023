@@ -5,6 +5,8 @@ import (
 	"log"
 	"time"
 
+	_ "github.com/go-sql-driver/mysql"
+
 	"github.com/TikTokTechImmersion/assignment_demo_2023/http-server/kitex_gen/rpc"
 	"github.com/TikTokTechImmersion/assignment_demo_2023/http-server/kitex_gen/rpc/imservice"
 	"github.com/TikTokTechImmersion/assignment_demo_2023/http-server/proto_gen/api"
